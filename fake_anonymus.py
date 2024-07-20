@@ -2,6 +2,11 @@ import time
 import telebot
 from telebot import types
 
+
+from keep_alive import keep_alive
+
+keep_alive()
+
 BOT_TOKEN = '6748196537:AAElA-utubY5zYvv-zIquyelZz9JpdeuvbM'  # Replace with your actual bot token
 bot = telebot.TeleBot(BOT_TOKEN)
 
